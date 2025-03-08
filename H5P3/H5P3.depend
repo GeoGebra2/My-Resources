@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1732864707 source:d:\数据结构\h5p3\main.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+	<queue>
+

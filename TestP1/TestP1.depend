@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1733381718 source:d:\数据结构\testp1\main.cpp
+	<iostream>
+	<stack>
+	<sstream>
+

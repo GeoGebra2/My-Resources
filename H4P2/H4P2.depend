@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1731741088 source:d:\数据结构\h4p2\main.cpp
+	<iostream>
+	<vector>
+	<cmath>
+

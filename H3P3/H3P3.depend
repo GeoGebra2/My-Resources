@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1731165402 source:d:\数据结构\h3p3\main.cpp
+	<iostream>
+	<iostream>
+	<stack>
+	<queue>
+	<list>
+

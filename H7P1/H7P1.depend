@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1734941351 source:d:\数据结构\h7p1\main.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+
