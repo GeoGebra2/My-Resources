@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Wed Oct 30 20:04:59 2024
+# Process ID: 11948
+# Current directory: D:/电子电路实验/demo23/display_dynamic_demo2/display_dynamic_demo2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20760 D:\电子电路实验\demo23\display_dynamic_demo2\display_dynamic_demo2\display_dynamic_2.xpr
+# Log file: D:/电子电路实验/demo23/display_dynamic_demo2/display_dynamic_demo2/vivado.log
+# Journal file: D:/电子电路实验/demo23/display_dynamic_demo2/display_dynamic_demo2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/电子电路实验/demo23/display_dynamic_demo2/display_dynamic_demo2/display_dynamic_2.xpr
+update_compile_order -fileset sources_1

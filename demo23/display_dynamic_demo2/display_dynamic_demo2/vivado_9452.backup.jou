@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Thu Oct 20 14:54:05 2022
+# Process ID: 9452
+# Current directory: F:/Lab center/电子电路系统/2022年秋季/第二讲 FPGA初步/display_dynamic_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15752 F:\Lab center\电子电路系统\2022年秋季\第二讲 FPGA初步\display_dynamic_2\display_dynamic_2.xpr
+# Log file: F:/Lab center/电子电路系统/2022年秋季/第二讲 FPGA初步/display_dynamic_2/vivado.log
+# Journal file: F:/Lab center/电子电路系统/2022年秋季/第二讲 FPGA初步/display_dynamic_2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {F:/Lab center/电子电路系统/2022年秋季/第二讲 FPGA初步/display_dynamic_2/display_dynamic_2.xpr}
+update_compile_order -fileset sources_1

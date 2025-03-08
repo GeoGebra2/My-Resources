@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Wed Oct 30 18:06:52 2024
+# Process ID: 6092
+# Current directory: D:/电子电路实验/demo23/display_dynamic_demo2/display_dynamic_demo2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16528 D:\电子电路实验\demo23\display_dynamic_demo2\display_dynamic_demo2\display_dynamic_2.xpr
+# Log file: D:/电子电路实验/demo23/display_dynamic_demo2/display_dynamic_demo2/vivado.log
+# Journal file: D:/电子电路实验/demo23/display_dynamic_demo2/display_dynamic_demo2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/电子电路实验/demo23/display_dynamic_demo2/display_dynamic_demo2/display_dynamic_2.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/Sylvie/Desktop/demo123/display_dynamic_demo2/display_dynamic_demo2' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2017.3/data/ip'.
+open_project: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 888.562 ; gain = 54.367
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Oct 30 18:08:24 2024...

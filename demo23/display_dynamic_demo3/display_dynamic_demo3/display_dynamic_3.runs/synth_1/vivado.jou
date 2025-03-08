@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Mon Oct  9 13:57:16 2023
+# Process ID: 7504
+# Current directory: C:/Users/Sylvie/Desktop/demo123/display_dynamic_demo3/display_dynamic_demo3/display_dynamic_3.runs/synth_1
+# Command line: vivado.exe -log display_dynamic_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source display_dynamic_top.tcl
+# Log file: C:/Users/Sylvie/Desktop/demo123/display_dynamic_demo3/display_dynamic_demo3/display_dynamic_3.runs/synth_1/display_dynamic_top.vds
+# Journal file: C:/Users/Sylvie/Desktop/demo123/display_dynamic_demo3/display_dynamic_demo3/display_dynamic_3.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source display_dynamic_top.tcl -notrace

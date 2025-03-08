@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Lab center/VivadoProject/shumaguan2022/display_dynamic_2/display_dynamic_2.sim/sim_1/synth/timing/xsim/display_dynamic_top_time_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_div
+INFO: [VRFC 10-311] analyzing module display_ctrl
+INFO: [VRFC 10-311] analyzing module display_dynamic_top
+INFO: [VRFC 10-311] analyzing module glbl

@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Mon Sep 25 23:43:20 2023
+# Process ID: 1948
+# Current directory: C:/Users/Sylvie/Desktop/demo123/display_dynamic_demo2/display_dynamic_demo2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17876 C:\Users\Sylvie\Desktop\demo123\display_dynamic_demo2\display_dynamic_demo2\display_dynamic_2.xpr
+# Log file: C:/Users/Sylvie/Desktop/demo123/display_dynamic_demo2/display_dynamic_demo2/vivado.log
+# Journal file: C:/Users/Sylvie/Desktop/demo123/display_dynamic_demo2/display_dynamic_demo2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Sylvie/Desktop/demo123/display_dynamic_demo2/display_dynamic_demo2/display_dynamic_2.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/Sylvie/Desktop/demo123/display_dynamic_demo2/display_dynamic_demo2/display_dynamic_2.runs/impl_1/display_dynamic_top.bit} [get_hw_devices xc7a50t_0]
+current_hw_device [get_hw_devices xc7a50t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a50t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a50t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a50t_0]
+set_property PROGRAM.FILE {C:/Users/Sylvie/Desktop/demo123/display_dynamic_demo2/display_dynamic_demo2/display_dynamic_2.runs/impl_1/display_dynamic_top.bit} [get_hw_devices xc7a50t_0]
+program_hw_devices [get_hw_devices xc7a50t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a50t_0] 0]

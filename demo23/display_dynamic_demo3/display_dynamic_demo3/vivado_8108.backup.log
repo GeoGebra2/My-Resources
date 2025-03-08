@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Tue Oct  4 00:54:01 2022
+# Process ID: 8108
+# Current directory: F:/Lab center/VivadoProject/shumaguan2022/display_dynamic_3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4976 F:\Lab center\VivadoProject\shumaguan2022\display_dynamic_3\display_dynamic_3.xpr
+# Log file: F:/Lab center/VivadoProject/shumaguan2022/display_dynamic_3/vivado.log
+# Journal file: F:/Lab center/VivadoProject/shumaguan2022/display_dynamic_3\vivado.jou
+#-----------------------------------------------------------
+Sourcing tcl script 'D:/Xilinx/Vivado/2017.3/scripts/Vivado_init.tcl'
+start_gui
+open_project {F:/Lab center/VivadoProject/shumaguan2022/display_dynamic_3/display_dynamic_3.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2017.3/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:06 . Memory (MB): peak = 906.914 ; gain = 100.520
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Oct  4 00:54:57 2022...

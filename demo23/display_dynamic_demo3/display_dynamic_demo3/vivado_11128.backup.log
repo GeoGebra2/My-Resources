@@ -1,0 +1,62 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Tue Sep 26 01:15:39 2023
+# Process ID: 11128
+# Current directory: F:/Lab center/电子技术实验/2023年秋/课件/第3讲/例子补充/demo123/display_dynamic_demo3/display_dynamic_demo3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2800 F:\Lab center\电子技术实验\2023年秋\课件\第3讲\例子补充\demo123\display_dynamic_demo3\display_dynamic_demo3\display_dynamic_3.xpr
+# Log file: F:/Lab center/电子技术实验/2023年秋/课件/第3讲/例子补充/demo123/display_dynamic_demo3/display_dynamic_demo3/vivado.log
+# Journal file: F:/Lab center/电子技术实验/2023年秋/课件/第3讲/例子补充/demo123/display_dynamic_demo3/display_dynamic_demo3\vivado.jou
+#-----------------------------------------------------------
+Sourcing tcl script 'D:/Xilinx/Vivado/2017.3/scripts/Vivado_init.tcl'
+start_gui
+open_project {F:/Lab center/电子技术实验/2023年秋/课件/第3讲/例子补充/demo123/display_dynamic_demo3/display_dynamic_demo3/display_dynamic_3.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'F:/Lab center/电子技术实验/2023年秋/课件/第3讲/例子补充/demo123/display_dynamic_demo3/display_dynamic_demo3'
+INFO: [Project 1-313] Project file moved from 'C:/Users/Sylvie/Desktop/demo123/display_dynamic_demo3/display_dynamic_demo3' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2017.3/data/ip'.
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:07 . Memory (MB): peak = 855.207 ; gain = 58.629
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a50tcsg324-1
+Top: display_dynamic_top
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:07 . Memory (MB): peak = 931.883 ; gain = 55.109
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'display_dynamic_top' [F:/Lab center/电子技术实验/2023年秋/课件/第3讲/例子补充/demo123/display_dynamic_demo3/display_dynamic_demo3/display_dynamic_3.srcs/sources_1/new/display_dynamic_top.v:24]
+INFO: [Synth 8-638] synthesizing module 'clk_div' [F:/Lab center/电子技术实验/2023年秋/课件/第3讲/例子补充/demo123/display_dynamic_demo3/display_dynamic_demo3/display_dynamic_3.srcs/sources_1/new/clk_div.v:23]
+INFO: [Synth 8-256] done synthesizing module 'clk_div' (1#1) [F:/Lab center/电子技术实验/2023年秋/课件/第3讲/例子补充/demo123/display_dynamic_demo3/display_dynamic_demo3/display_dynamic_3.srcs/sources_1/new/clk_div.v:23]
+INFO: [Synth 8-638] synthesizing module 'display_scan' [F:/Lab center/电子技术实验/2023年秋/课件/第3讲/例子补充/demo123/display_dynamic_demo3/display_dynamic_demo3/display_dynamic_3.srcs/sources_1/new/display_scan.v:23]
+INFO: [Synth 8-256] done synthesizing module 'display_scan' (2#1) [F:/Lab center/电子技术实验/2023年秋/课件/第3讲/例子补充/demo123/display_dynamic_demo3/display_dynamic_demo3/display_dynamic_3.srcs/sources_1/new/display_scan.v:23]
+INFO: [Synth 8-638] synthesizing module 'display_ctrl' [F:/Lab center/电子技术实验/2023年秋/课件/第3讲/例子补充/demo123/display_dynamic_demo3/display_dynamic_demo3/display_dynamic_3.srcs/sources_1/new/display_ctrl.v:23]
+INFO: [Synth 8-226] default block is never used [F:/Lab center/电子技术实验/2023年秋/课件/第3讲/例子补充/demo123/display_dynamic_demo3/display_dynamic_demo3/display_dynamic_3.srcs/sources_1/new/display_ctrl.v:30]
+INFO: [Synth 8-256] done synthesizing module 'display_ctrl' (3#1) [F:/Lab center/电子技术实验/2023年秋/课件/第3讲/例子补充/demo123/display_dynamic_demo3/display_dynamic_demo3/display_dynamic_3.srcs/sources_1/new/display_ctrl.v:23]
+INFO: [Synth 8-256] done synthesizing module 'display_dynamic_top' (4#1) [F:/Lab center/电子技术实验/2023年秋/课件/第3讲/例子补充/demo123/display_dynamic_demo3/display_dynamic_demo3/display_dynamic_3.srcs/sources_1/new/display_dynamic_top.v:24]
+WARNING: [Synth 8-3331] design display_scan has unconnected port clk_cnt[22]
+WARNING: [Synth 8-3331] design display_scan has unconnected port clk_cnt[21]
+WARNING: [Synth 8-3331] design display_scan has unconnected port clk_cnt[20]
+WARNING: [Synth 8-3331] design display_scan has unconnected port clk_cnt[19]
+WARNING: [Synth 8-3331] design display_scan has unconnected port clk_cnt[18]
+WARNING: [Synth 8-3331] design display_scan has unconnected port clk_cnt[15]
+WARNING: [Synth 8-3331] design display_scan has unconnected port clk_cnt[14]
+WARNING: [Synth 8-3331] design display_scan has unconnected port clk_cnt[13]
+WARNING: [Synth 8-3331] design display_scan has unconnected port clk_cnt[12]
+WARNING: [Synth 8-3331] design display_scan has unconnected port clk_cnt[11]
+WARNING: [Synth 8-3331] design display_scan has unconnected port clk_cnt[10]
+WARNING: [Synth 8-3331] design display_scan has unconnected port clk_cnt[9]
+WARNING: [Synth 8-3331] design display_scan has unconnected port clk_cnt[8]
+WARNING: [Synth 8-3331] design display_scan has unconnected port clk_cnt[7]
+WARNING: [Synth 8-3331] design display_scan has unconnected port clk_cnt[6]
+WARNING: [Synth 8-3331] design display_scan has unconnected port clk_cnt[5]
+WARNING: [Synth 8-3331] design display_scan has unconnected port clk_cnt[4]
+WARNING: [Synth 8-3331] design display_scan has unconnected port clk_cnt[3]
+WARNING: [Synth 8-3331] design display_scan has unconnected port clk_cnt[2]
+WARNING: [Synth 8-3331] design display_scan has unconnected port clk_cnt[1]
+WARNING: [Synth 8-3331] design display_scan has unconnected port clk_cnt[0]

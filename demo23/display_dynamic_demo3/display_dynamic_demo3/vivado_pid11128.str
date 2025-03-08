@@ -1,0 +1,108 @@
+/*
+
+Xilinx Vivado v2017.3 (64-bit) [Major: 2017, Minor: 3]
+SW Build: 2018833 on Wed Oct  4 19:58:22 MDT 2017
+IP Build: 2016188 on Wed Oct  4 21:52:56 MDT 2017
+
+Process ID: 11128
+License: Customer
+
+Current time: 	Tue Sep 26 01:15:54 CST 2023
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 23 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	D:/Xilinx/Vivado/2017.3/tps/win64/jre
+JVM executable location: 	D:/Xilinx/Vivado/2017.3/tps/win64/jre/bin/java.exe
+
+User name: 	Sylvie
+User home directory: C:/Users/Sylvie
+User working directory: F:/Lab center/电子技术实验/2023年秋/课件/第3讲/例子补充/demo123/display_dynamic_demo3/display_dynamic_demo3
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: D:/Xilinx/Vivado
+HDI_APPROOT: D:/Xilinx/Vivado/2017.3
+RDI_DATADIR: D:/Xilinx/Vivado/2017.3/data
+RDI_BINDIR: D:/Xilinx/Vivado/2017.3/bin
+
+User preferences location: C:/Users/Sylvie/AppData/Roaming/Xilinx/Vivado
+Vivado preferences directory: C:/Users/Sylvie/AppData/Roaming/Xilinx/Vivado/2017.3/vivado.xml
+Vivado layouts directory: C:/Users/Sylvie/AppData/Roaming/Xilinx/Vivado/2017.3/layouts
+PlanAhead jar file location: 	D:/Xilinx/Vivado/2017.3/lib/classes/planAhead.jar
+Vivado log file location: 	F:/Lab center/电子技术实验/2023年秋/课件/第3讲/例子补充/demo123/display_dynamic_demo3/display_dynamic_demo3/vivado.log
+Vivado journal file location: 	F:/Lab center/电子技术实验/2023年秋/课件/第3讲/例子补充/demo123/display_dynamic_demo3/display_dynamic_demo3/vivado.jou
+Engine tmp dir: 	F:/Lab center/电子技术实验/2023年秋/课件/第3讲/例子补充/demo123/display_dynamic_demo3/display_dynamic_demo3/.Xil/Vivado-11128-DESKTOP-D12KSI8
+
+GUI allocated memory:	196 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 576 MB
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: Sourcing tcl script 'D:/Xilinx/Vivado/2017.3/scripts/Vivado_init.tcl' 
+// TclEventType: PROJECT_OPEN_DIALOG
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 47 MB (+47256kb) [00:00:07]
+// [Engine Memory]: 527 MB (+401611kb) [00:00:07]
+// Opening Vivado Project: F:\Lab center\电子技术实验\2023年秋\课件\第3讲\例子补充\demo123\display_dynamic_demo3\display_dynamic_demo3\display_dynamic_3.xpr. Version: Vivado v2017.3 
+// bs (cl):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {F:/Lab center/电子技术实验/2023年秋/课件/第3讲/例子补充/demo123/display_dynamic_demo3/display_dynamic_demo3/display_dynamic_3.xpr} 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'F:/Lab center/电子技术实验/2023年秋/课件/第3讲/例子补充/demo123/display_dynamic_demo3/display_dynamic_demo3' 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {F:/Lab center/电子技术实验/2023年秋/课件/第3讲/例子补充/demo123/display_dynamic_demo3/display_dynamic_demo3/display_dynamic_3.xpr} 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'F:/Lab center/电子技术实验/2023年秋/课件/第3讲/例子补充/demo123/display_dynamic_demo3/display_dynamic_demo3' INFO: [Project 1-313] Project file moved from 'C:/Users/Sylvie/Desktop/demo123/display_dynamic_demo3/display_dynamic_demo3' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// [GUI Memory]: 60 MB (+10174kb) [00:00:09]
+// [Engine Memory]: 576 MB (+23339kb) [00:00:09]
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 77 MB (+15276kb) [00:00:11]
+// [Engine Memory]: 608 MB (+2847kb) [00:00:11]
+// [GUI Memory]: 96 MB (+15521kb) [00:00:12]
+// [Engine Memory]: 655 MB (+17958kb) [00:00:12]
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2017.3/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 671 MB. GUI used memory: 40 MB. Current time: 9/26/23 1:15:59 AM CST
+// Tcl Message: open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:07 . Memory (MB): peak = 855.207 ; gain = 58.629 
+// Project name: display_dynamic_3; location: F:/Lab center/电子技术实验/2023年秋/课件/第3讲/例子补充/demo123/display_dynamic_demo3/display_dynamic_demo3; part: xc7a50tcsg324-1
+dismissDialog("Open Project"); // bs (cl)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [Engine Memory]: 689 MB (+897kb) [00:00:19]
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 56 seconds
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12); // u (O, cl)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12); // u (O, cl)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design, Schematic]", 15, false); // u (O, cl)
+// x (cl): Elaborate Design: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (x)
+// bs (cl):  Open Elaborated Design : addNotify
+// TclEventType: ELABORATE_START
+dismissDialog("Elaborate Design"); // x (cl)
+// Tcl Message: synth_design -rtl -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -name rtl_1 Starting synth_design Using part: xc7a50tcsg324-1 Top: display_dynamic_top 
+// HMemoryUtils.trashcanNow. Engine heap size: 711 MB. GUI used memory: 40 MB. Current time: 9/26/23 1:17:01 AM CST

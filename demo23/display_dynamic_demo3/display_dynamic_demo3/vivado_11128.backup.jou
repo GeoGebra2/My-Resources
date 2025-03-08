@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Tue Sep 26 01:15:39 2023
+# Process ID: 11128
+# Current directory: F:/Lab center/电子技术实验/2023年秋/课件/第3讲/例子补充/demo123/display_dynamic_demo3/display_dynamic_demo3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2800 F:\Lab center\电子技术实验\2023年秋\课件\第3讲\例子补充\demo123\display_dynamic_demo3\display_dynamic_demo3\display_dynamic_3.xpr
+# Log file: F:/Lab center/电子技术实验/2023年秋/课件/第3讲/例子补充/demo123/display_dynamic_demo3/display_dynamic_demo3/vivado.log
+# Journal file: F:/Lab center/电子技术实验/2023年秋/课件/第3讲/例子补充/demo123/display_dynamic_demo3/display_dynamic_demo3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {F:/Lab center/电子技术实验/2023年秋/课件/第3讲/例子补充/demo123/display_dynamic_demo3/display_dynamic_demo3/display_dynamic_3.xpr}
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1

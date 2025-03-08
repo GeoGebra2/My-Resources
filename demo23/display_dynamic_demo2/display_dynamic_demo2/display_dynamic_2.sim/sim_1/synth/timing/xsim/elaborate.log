@@ -1,0 +1,24 @@
+Vivado Simulator 2017.3
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2017.3/bin/unwrapped/win64.o/xelab.exe -wto 2a8e5ba1700345a88ebe54eb620b48c4 --incr --debug typical --relax --mt 8 --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot display_dynamic_top_time_synth -transport_int_delays -pulse_r 0 -pulse_int_r 0 -pulse_e 0 -pulse_int_e 0 xil_defaultlib.display_dynamic_top xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+INFO: [XSIM 43-3451] SDF backannotation process started with SDF file "display_dynamic_top_time_synth.sdf", for root module "display_dynamic_top".
+INFO: [XSIM 43-3452] SDF backannotation was successful for SDF file "display_dynamic_top_time_synth.sdf", for root module "display_dynamic_top".
+Time Resolution for simulation is 1ps
+Compiling module simprims_ver.BUFG
+Compiling module simprims_ver.IBUF
+Compiling module simprims_ver.OBUF
+Compiling module simprims_ver.LUT4
+Compiling module xil_defaultlib.display_ctrl
+Compiling module simprims_ver.x_lut1_mux2
+Compiling module simprims_ver.LUT1
+Compiling module simprims_ver.FDRE_default
+Compiling module simprims_ver.CARRY4
+Compiling module xil_defaultlib.clk_div
+Compiling module xil_defaultlib.display_dynamic_top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot display_dynamic_top_time_synth

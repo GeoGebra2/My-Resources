@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Wed Oct 30 19:14:16 2024
+# Process ID: 16352
+# Current directory: D:/电子电路实验/display_static_demo1/display_static_demo1/display_static_1.runs/synth_1
+# Command line: vivado.exe -log display_static_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source display_static_top.tcl
+# Log file: D:/电子电路实验/display_static_demo1/display_static_demo1/display_static_1.runs/synth_1/display_static_top.vds
+# Journal file: D:/电子电路实验/display_static_demo1/display_static_demo1/display_static_1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source display_static_top.tcl -notrace

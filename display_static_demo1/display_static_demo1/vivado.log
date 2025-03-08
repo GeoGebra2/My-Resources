@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Wed Oct 30 19:09:23 2024
+# Process ID: 8372
+# Current directory: D:/电子电路实验/display_static_demo1/display_static_demo1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22632 D:\电子电路实验\display_static_demo1\display_static_demo1\display_static_1.xpr
+# Log file: D:/电子电路实验/display_static_demo1/display_static_demo1/vivado.log
+# Journal file: D:/电子电路实验/display_static_demo1/display_static_demo1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/电子电路实验/display_static_demo1/display_static_demo1/display_static_1.xpr
+INFO: [Project 1-313] Project file moved from 'F:/Lab center/上课/电子电路系统/2024年秋季/课件/第五周 FPGA2/display_static_demo1/display_static_demo1' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2017.3/data/ip'.
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -jobs 8
+[Wed Oct 30 19:14:14 2024] Launched synth_1...
+Run output will be captured here: D:/电子电路实验/display_static_demo1/display_static_demo1/display_static_1.runs/synth_1/runme.log
+[Wed Oct 30 19:14:14 2024] Launched impl_1...
+Run output will be captured here: D:/电子电路实验/display_static_demo1/display_static_demo1/display_static_1.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Oct 30 21:00:48 2024...

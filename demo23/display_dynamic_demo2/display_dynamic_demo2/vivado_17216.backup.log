@@ -1,0 +1,32 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Mon Oct  9 13:36:34 2023
+# Process ID: 17216
+# Current directory: C:/Users/Sylvie/Desktop/demo123/display_dynamic_demo2/display_dynamic_demo2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12804 C:\Users\Sylvie\Desktop\demo123\display_dynamic_demo2\display_dynamic_demo2\display_dynamic_2.xpr
+# Log file: C:/Users/Sylvie/Desktop/demo123/display_dynamic_demo2/display_dynamic_demo2/vivado.log
+# Journal file: C:/Users/Sylvie/Desktop/demo123/display_dynamic_demo2/display_dynamic_demo2\vivado.jou
+#-----------------------------------------------------------
+Sourcing tcl script 'D:/Xilinx/Vivado/2017.3/scripts/Vivado_init.tcl'
+start_gui
+open_project C:/Users/Sylvie/Desktop/demo123/display_dynamic_demo2/display_dynamic_demo2/display_dynamic_2.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2017.3/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:06 . Memory (MB): peak = 838.148 ; gain = 66.309
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1
+[Mon Oct  9 13:37:54 2023] Launched synth_1...
+Run output will be captured here: C:/Users/Sylvie/Desktop/demo123/display_dynamic_demo2/display_dynamic_demo2/display_dynamic_2.runs/synth_1/runme.log
+[Mon Oct  9 13:37:54 2023] Launched impl_1...
+Run output will be captured here: C:/Users/Sylvie/Desktop/demo123/display_dynamic_demo2/display_dynamic_demo2/display_dynamic_2.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Mon Oct  9 13:39:37 2023] Launched impl_1...
+Run output will be captured here: C:/Users/Sylvie/Desktop/demo123/display_dynamic_demo2/display_dynamic_demo2/display_dynamic_2.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Oct  9 13:40:23 2023...

@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Mon Oct  9 13:36:34 2023
+# Process ID: 17216
+# Current directory: C:/Users/Sylvie/Desktop/demo123/display_dynamic_demo2/display_dynamic_demo2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12804 C:\Users\Sylvie\Desktop\demo123\display_dynamic_demo2\display_dynamic_demo2\display_dynamic_2.xpr
+# Log file: C:/Users/Sylvie/Desktop/demo123/display_dynamic_demo2/display_dynamic_demo2/vivado.log
+# Journal file: C:/Users/Sylvie/Desktop/demo123/display_dynamic_demo2/display_dynamic_demo2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Sylvie/Desktop/demo123/display_dynamic_demo2/display_dynamic_demo2/display_dynamic_2.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1

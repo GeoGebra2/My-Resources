@@ -1,0 +1,33 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Mon Oct  9 13:33:23 2023
+# Process ID: 6660
+# Current directory: C:/Users/Sylvie/Desktop/demo123/display_static_demo1/display_static_demo1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2276 C:\Users\Sylvie\Desktop\demo123\display_static_demo1\display_static_demo1\display_static_1.xpr
+# Log file: C:/Users/Sylvie/Desktop/demo123/display_static_demo1/display_static_demo1/vivado.log
+# Journal file: C:/Users/Sylvie/Desktop/demo123/display_static_demo1/display_static_demo1\vivado.jou
+#-----------------------------------------------------------
+Sourcing tcl script 'D:/Xilinx/Vivado/2017.3/scripts/Vivado_init.tcl'
+start_gui
+open_project C:/Users/Sylvie/Desktop/demo123/display_static_demo1/display_static_demo1/display_static_1.xpr
+INFO: [Project 1-313] Project file moved from 'F:/Lab center/电子技术实验/2023年秋/课件/第3讲/demo123/display_static_demo1/display_static_demo1' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2017.3/data/ip'.
+open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:05 . Memory (MB): peak = 856.938 ; gain = 65.570
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1
+[Mon Oct  9 13:33:49 2023] Launched synth_1...
+Run output will be captured here: C:/Users/Sylvie/Desktop/demo123/display_static_demo1/display_static_demo1/display_static_1.runs/synth_1/runme.log
+[Mon Oct  9 13:33:49 2023] Launched impl_1...
+Run output will be captured here: C:/Users/Sylvie/Desktop/demo123/display_static_demo1/display_static_demo1/display_static_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Mon Oct  9 13:35:37 2023] Launched impl_1...
+Run output will be captured here: C:/Users/Sylvie/Desktop/demo123/display_static_demo1/display_static_demo1/display_static_1.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Oct  9 13:36:27 2023...

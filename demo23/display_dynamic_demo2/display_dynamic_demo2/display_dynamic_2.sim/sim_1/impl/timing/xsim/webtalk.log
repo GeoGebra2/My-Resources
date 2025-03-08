@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Mon Oct  3 22:48:24 2022
+# Process ID: 11032
+# Current directory: F:/Lab center/VivadoProject/shumaguan2022/display_dynamic_2/display_dynamic_2.sim/sim_1/impl/timing/xsim
+# Command line: wbtcv.exe -mode batch -source F:/Lab center/VivadoProject/shumaguan2022/display_dynamic_2/display_dynamic_2.sim/sim_1/impl/timing/xsim/xsim.dir/display_dynamic_top_time_impl/webtalk/xsim_webtalk.tcl -notrace
+# Log file: F:/Lab center/VivadoProject/shumaguan2022/display_dynamic_2/display_dynamic_2.sim/sim_1/impl/timing/xsim/webtalk.log
+# Journal file: F:/Lab center/VivadoProject/shumaguan2022/display_dynamic_2/display_dynamic_2.sim/sim_1/impl/timing/xsim\webtalk.jou
+#-----------------------------------------------------------
+source F:/Lab -notrace
+couldn't read file "F:/Lab": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Mon Oct  3 22:48:24 2022...

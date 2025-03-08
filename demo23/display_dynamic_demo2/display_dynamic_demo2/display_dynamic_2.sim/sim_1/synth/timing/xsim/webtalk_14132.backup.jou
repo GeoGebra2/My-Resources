@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Mon Oct  3 22:41:43 2022
+# Process ID: 14132
+# Current directory: F:/Lab center/VivadoProject/shumaguan2022/display_dynamic_2/display_dynamic_2.sim/sim_1/synth/timing/xsim
+# Command line: wbtcv.exe -mode batch -source F:/Lab center/VivadoProject/shumaguan2022/display_dynamic_2/display_dynamic_2.sim/sim_1/synth/timing/xsim/xsim.dir/display_dynamic_top_time_synth/webtalk/xsim_webtalk.tcl -notrace
+# Log file: F:/Lab center/VivadoProject/shumaguan2022/display_dynamic_2/display_dynamic_2.sim/sim_1/synth/timing/xsim/webtalk.log
+# Journal file: F:/Lab center/VivadoProject/shumaguan2022/display_dynamic_2/display_dynamic_2.sim/sim_1/synth/timing/xsim\webtalk.jou
+#-----------------------------------------------------------
+source F:/Lab -notrace

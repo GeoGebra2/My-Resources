@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../display_dynamic_2.srcs/sources_1/new/clk_div.v" \
+"../../../../display_dynamic_2.srcs/sources_1/new/display_ctrl.v" \
+"../../../../display_dynamic_2.srcs/sources_1/new/display_dynamic_top.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
