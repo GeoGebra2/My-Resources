@@ -1,0 +1,96 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{amsmath,amscd,amsbsy,amssymb,latexsym,url,bm,amsthm}
+\usepackage{epsfig,graphicx,subfigure}
+\usepackage{enumitem,balance}
+\usepackage{wrapfig}
+\usepackage{mathrsfs,euscript}
+\usepackage[usenames]{xcolor}
+\usepackage{hyperref}
+\usepackage[vlined,ruled,commentsnumbered,linesnumbered]{algorithm2e}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{exercise}{Exercise}
+\newtheorem*{solution}{Solution}
+\newtheorem{definition}{Definition}
+\theoremstyle{definition}
+
+
+%\numberwithin{equation}{section}
+%\numberwithin{figure}{section}
+
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+
+\newcommand{\postscript}[2]
+ {\setlength{\epsfxsize}{#2\hsize}
+  \centerline{\epsfbox{#1}}}
+
+\renewcommand{\baselinestretch}{1.0}
+
+\setlength{\oddsidemargin}{-0.365in}
+\setlength{\evensidemargin}{-0.365in}
+\setlength{\topmargin}{-0.3in}
+\setlength{\headheight}{0in}
+\setlength{\headsep}{0in}
+\setlength{\textheight}{10.1in}
+\setlength{\textwidth}{7in}
+\makeatletter \renewenvironment{proof}[1][Proof] {\par\pushQED{\qed}\normalfont\topsep6\p@\@plus6\p@\relax\trivlist\item[\hskip\labelsep\bfseries#1\@addpunct{.}]\ignorespaces}{\popQED\endtrivlist\@endpefalse} \makeatother
+\makeatletter
+\renewenvironment{solution}[1][Solution] {\par\pushQED{\qed}\normalfont\topsep6\p@\@plus6\p@\relax\trivlist\item[\hskip\labelsep\bfseries#1\@addpunct{.}]\ignorespaces}{\popQED\endtrivlist\@endpefalse} \makeatother
+
+
+
+\begin{document}
+\noindent
+
+%========================================================================
+\noindent\framebox[\linewidth]{\shortstack[c]{
+\Large{\textbf{Exercise Sheet 18}}\vspace{1mm}\\
+Discrete Mathematics by Hongfei Fu, 2023.12.07}}
+
+\begin{center}
+	\footnotesize{\color{black} \quad Name:\_\_\_\_\_\_\_\_\_  \quad Student ID:\_\_\_\_\_\_\_\_\_ \quad Class: \_\_\_\_\_\_\_\_\_\_\_\_} \\
+	
+
+\end{center}
+
+
+\begin{enumerate}
+\item  
+In Exercises (3), (4) use Prim's algorithm to ﬁnd a minimum spanning tree for the given weighted graph.\\
+3. \includegraphics*[scale=0.8]{3@p802.png} \qquad \qquad 
+4. \includegraphics*[scale=0.5]{4@p802.png}\\
+\textbf{Answer Area:}
+\vspace{6cm}
+
+\item 
+Use Kruskal's algorithm to ﬁnd a minimum spanning tree for the weighted graph in Exercise(3), (4) respectively.
+
+\textbf{Answer Area:}
+\vspace{8cm}
+\clearpage
+
+\item 
+Find a maximum spanning tree for the weighted graph in Exercise 3, 4 respectively.
+
+
+\textbf{Answer Area:}
+\vspace{7cm}
+
+\item 
+Show that there is a unique minimum spanning tree in a connected weighted graph if the weights of the edges are all different.
+
+
+\textbf{Answer Area:}
+\vspace{6cm}
+
+\item (Additional Homework, \textbf{2pt})
+Suppose $G = (V,E)$ a weighted connected simple graph with weight function $w: E \to \mathbb{R}$, and $e_0 \in E$ is an edge that has the greatest weight, i.e. for any $e \in E \setminus \{ e_0 \}$, $w(e_0) > w(e)$. Prove that if $e_0$ is in a minimum spanning tree of $G$, then $e_0$ must be a cut edge of $G$.
+
+\textbf{Answer Area:}
+
+\end{enumerate}
+%========================================================================
+\end{document}

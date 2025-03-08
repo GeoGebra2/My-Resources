@@ -1,0 +1,116 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{ctex}
+\usepackage{amsmath,amscd,amsbsy,amssymb,latexsym,url,bm,amsthm}
+\usepackage{epsfig,graphicx,subfigure}
+\usepackage{enumitem,balance}
+\usepackage{wrapfig}
+\usepackage{mathrsfs,euscript}
+\usepackage[usenames]{xcolor}
+\usepackage{hyperref}
+\usepackage[vlined,ruled,commentsnumbered,linesnumbered]{algorithm2e}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{exercise}{Exercise}
+\newtheorem*{solution}{Solution}
+\newtheorem{definition}{Definition}
+\theoremstyle{definition}
+
+
+%\numberwithin{equation}{section}
+%\numberwithin{figure}{section}
+
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+
+\newcommand{\postscript}[2]
+ {\setlength{\epsfxsize}{#2\hsize}
+  \centerline{\epsfbox{#1}}}
+
+\renewcommand{\baselinestretch}{1.0}
+
+\setlength{\oddsidemargin}{-0.365in}
+\setlength{\evensidemargin}{-0.365in}
+\setlength{\topmargin}{-0.3in}
+\setlength{\headheight}{0in}
+\setlength{\headsep}{0in}
+\setlength{\textheight}{10.1in}
+\setlength{\textwidth}{7in}
+\makeatletter \renewenvironment{proof}[1][Proof] {\par\pushQED{\qed}\normalfont\topsep6\p@\@plus6\p@\relax\trivlist\item[\hskip\labelsep\bfseries#1\@addpunct{.}]\ignorespaces}{\popQED\endtrivlist\@endpefalse} \makeatother
+\makeatletter
+\renewenvironment{solution}[1][Solution] {\par\pushQED{\qed}\normalfont\topsep6\p@\@plus6\p@\relax\trivlist\item[\hskip\labelsep\bfseries#1\@addpunct{.}]\ignorespaces}{\popQED\endtrivlist\@endpefalse} \makeatother
+
+
+
+\begin{document}
+\noindent
+
+%========================================================================
+\noindent\framebox[\linewidth]{\shortstack[c]{
+\Large{\textbf{Exercise Sheet 15}}\vspace{1mm}\\
+Discrete Mathematics by Hongfei Fu, 2023.11.27}}
+
+\begin{center}
+	\footnotesize{\color{black} \quad Name:\_\_\_\_\_\_\_\_\_  \quad Student ID:\_\_\_\_\_\_\_\_\_ \quad Class: \_\_\_\_\_\_\_\_\_\_\_\_} \\
+
+
+\end{center}
+
+\begin{enumerate}
+
+
+\item ([R], Page 705, Exercise 36) 
+In Exercises 36 determine whether the given graph has a Hamilton circuit. If it does, ﬁnd such a circuit. If it does not, give an argument to show why no such circuit exists.\\
+\includegraphics*[scale=0.7]{36@p705.png}\\
+
+\textbf{Answer Area:}
+\vspace{6cm}
+
+
+\item ([R], Page 705, Exercise 40) 
+Does the graph in Exercise 33 have a Hamilton path? If so, ﬁnd such a path. If it does not, give an argument to show why no such path exists.
+\includegraphics*[scale=0.7]{33@p705.png}\\
+
+
+\textbf{Answer Area:}
+\vspace{6cm}
+
+\item ([R], Page 706, Exercise 49, \textbf{2pt}) 
+Show that there is a Gray code of order $n$ whenever $n$ is
+a positive integer, or equivalently, show that the $n$-cube
+$Q_{n}, n>1,$ always has a Hamilton circuit. [Hint: Use
+mathematical induction. Show how to produce a Gray
+code of order $n \text { from one of order } n-1 .]$
+
+\textbf{Answer Area:}
+\vspace{9cm}
+
+\iffalse
+\item ([R], Page 706, Exercise 55) 
+Show that a bipartite graph with an odd number of vertices does not have a Hamilton circuit.
+
+\textbf{Answer Area:}
+\vspace{6cm}
+\fi
+
+\item(Exercise 48, \textbf{2pt})
+Can you find a simple connected graph with $n$ vertices with $n\ge3$ that does not have a Hamilton circuit, yet the degree of every vertex in the graph is at least (n - 1)/2?
+
+\textbf{Answer Area:}
+\vspace{12cm}
+
+\item(Exercise 46, \textbf{1pt})
+Show that any subgraph of the Petersen graph below obtained by deleting a vertex has a Hamilton circuit. 
+\includegraphics*[scale=0.7]{46.png}\\
+\textbf{Answer Area:}
+\vspace{8cm}
+
+\item(Exercise 67, \textbf{2pt})
+Show that this graph does not have a Hamilton circuit
+\includegraphics*[scale=0.7]{67.png}\\
+\textbf{Answer Area:}
+
+\end{enumerate}
+%========================================================================
+\end{document}

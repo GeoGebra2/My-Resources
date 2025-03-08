@@ -1,0 +1,120 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{ctex}
+\usepackage{amsmath,amscd,amsbsy,amssymb,latexsym,url,bm,amsthm}
+\usepackage{epsfig,graphicx,subfigure}
+\usepackage{enumitem,balance}
+\usepackage{wrapfig}
+\usepackage{mathrsfs,euscript}
+\usepackage[usenames]{xcolor}
+\usepackage{hyperref}
+\usepackage[vlined,ruled,commentsnumbered,linesnumbered]{algorithm2e}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{exercise}{Exercise}
+\newtheorem*{solution}{Solution}
+\newtheorem{definition}{Definition}
+\theoremstyle{definition}
+
+
+%\numberwithin{equation}{section}
+%\numberwithin{figure}{section}
+
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+
+\newcommand{\postscript}[2]
+ {\setlength{\epsfxsize}{#2\hsize}
+  \centerline{\epsfbox{#1}}}
+
+\renewcommand{\baselinestretch}{1.0}
+
+\setlength{\oddsidemargin}{-0.365in}
+\setlength{\evensidemargin}{-0.365in}
+\setlength{\topmargin}{-0.3in}
+\setlength{\headheight}{0in}
+\setlength{\headsep}{0in}
+\setlength{\textheight}{10.1in}
+\setlength{\textwidth}{7in}
+\makeatletter \renewenvironment{proof}[1][Proof] {\par\pushQED{\qed}\normalfont\topsep6\p@\@plus6\p@\relax\trivlist\item[\hskip\labelsep\bfseries#1\@addpunct{.}]\ignorespaces}{\popQED\endtrivlist\@endpefalse} \makeatother
+\makeatletter
+\renewenvironment{solution}[1][Solution] {\par\pushQED{\qed}\normalfont\topsep6\p@\@plus6\p@\relax\trivlist\item[\hskip\labelsep\bfseries#1\@addpunct{.}]\ignorespaces}{\popQED\endtrivlist\@endpefalse} \makeatother
+
+
+
+\begin{document}
+\noindent
+
+%========================================================================
+\noindent\framebox[\linewidth]{\shortstack[c]{
+\Large{\textbf{Exercise Sheet 12}}\vspace{1mm}\\
+Discrete Mathematics by Hongfei Fu, 2023.11.20}}
+
+\begin{center}
+	\footnotesize{\color{black} \quad Name:\_\_\_\_\_\_\_\_\_  \quad Student ID:\_\_\_\_\_\_\_\_\_ \quad Class: \_\_\_\_\_\_\_\_\_\_\_\_} \\
+
+
+\end{center}
+
+\begin{enumerate}
+
+\item ([R], Page 676-677, Exercise 36, 37, 42, 43(\textbf{2pt}), 44(\textbf{2pt})) In Exercises 36, 37, 42, 43, 44 determine whether the given pair of graphs is isomorphic. Exhibit an isomorphism or provide a rigorous argument that none exists.\\
+
+(36). \includegraphics*[scale=0.7]{36@p676.png} \\
+\textbf{Answer Area:}\\
+No. A proof is as follows:
+$\because$ In the left graph, there isn't a vertex whose degree is 4. But in the right graph, deg($v_{2}$) = 4.\\
+$\therefore$ The two graphs are not isomorphic.
+\vspace{1cm}
+
+(37). \includegraphics*[scale=0.7]{37@p676.png} \\
+\textbf{Answer Area:}\\
+Yes. There is a bijection:\\
+$f(u_{1}) = v_{1}$\\
+$f(u_{2}) = v_{3}$\\
+$f(u_{3}) = v_{5}$\\
+$f(u_{4}) = v_{7}$\\
+$f(u_{5}) = v_{2}$\\
+$f(u_{6}) = v_{4}$\\
+$f(u_{7}) = v_{6}$\\
+Hence, the two graphs are isomorphic.
+\vspace{1cm}
+
+(42). \includegraphics*[scale=0.7]{42@p677.png} \\
+\textbf{Answer Area:}\\
+No. A proof is as follows:
+Assuming that there is a bijection that satisfies the needs.\\
+$\because$If $f(u_{i}) = v_{j}$, then $deg(u_{i}) = deg(v_{j})$\\
+$\therefore f(u_{5}) = v_{5}$ or $f(u_{5}) = v_{1}.$\\
+$\because deg(v_{2}) = deg(v_{4}) = 4 \neg 3 = deg(u_{4}).$\\
+$\therefore f(u_{2}) \neg v_{4}$ and $f(u_{2}) \neg v_{2}$.\\
+$\therefore f(u_{5}) \neg v_{5}$ and $f(u_{5}) \neg v_{1}$\\
+Contradict. The two graphs are not isomorphic.
+\vspace{1cm}
+
+(43)(\textbf{2pt}). \includegraphics*[scale=0.7]{43@p677.png} \\
+\textbf{Answer Area:}\\
+Yes. A bijectionYes. There is a bijection:\\
+$f(u_{1}) = v_{1}$\\
+$f(u_{2}) = v_{2}$\\
+$f(u_{3}) = v_{3}$\\
+$f(u_{4}) = v_{7}$\\
+$f(u_{5}) = v_{6}$\\
+$f(u_{6}) = v_{5}$\\
+$f(u_{7}) = v_{10}$\\
+$f(u_{8}) = v_{4}$\\
+$f(u_{9}) = v_{8}$\\
+$f(u_{10}) = v_{9}$\\
+Hence, the two graphs are isomorphic.
+\vspace{1cm}
+
+(44)(\textbf{2pt}). \includegraphics*[scale=0.7]{44@p677.png} \\
+\textbf{Answer Area:}\\
+
+\vspace{4cm}
+
+\end{enumerate}
+%========================================================================
+\end{document}
+

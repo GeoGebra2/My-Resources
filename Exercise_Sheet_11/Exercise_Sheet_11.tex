@@ -1,0 +1,127 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{ctex}
+\usepackage{amsmath,amscd,amsbsy,amssymb,latexsym,url,bm,amsthm}
+\usepackage{epsfig,graphicx,subfigure}
+\usepackage{enumitem,balance}
+\usepackage{wrapfig}
+\usepackage{mathrsfs,euscript}
+\usepackage[usenames]{xcolor}
+\usepackage{hyperref}
+\usepackage[vlined,ruled,commentsnumbered,linesnumbered]{algorithm2e}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{exercise}{Exercise}
+\newtheorem*{solution}{Solution}
+\newtheorem{definition}{Definition}
+\theoremstyle{definition}
+
+
+%\numberwithin{equation}{section}
+%\numberwithin{figure}{section}
+
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+
+\newcommand{\postscript}[2]
+ {\setlength{\epsfxsize}{#2\hsize}
+  \centerline{\epsfbox{#1}}}
+
+\renewcommand{\baselinestretch}{1.0}
+
+\setlength{\oddsidemargin}{-0.365in}
+\setlength{\evensidemargin}{-0.365in}
+\setlength{\topmargin}{-0.3in}
+\setlength{\headheight}{0in}
+\setlength{\headsep}{0in}
+\setlength{\textheight}{10.1in}
+\setlength{\textwidth}{7in}
+\makeatletter \renewenvironment{proof}[1][Proof] {\par\pushQED{\qed}\normalfont\topsep6\p@\@plus6\p@\relax\trivlist\item[\hskip\labelsep\bfseries#1\@addpunct{.}]\ignorespaces}{\popQED\endtrivlist\@endpefalse} \makeatother
+\makeatletter
+\renewenvironment{solution}[1][Solution] {\par\pushQED{\qed}\normalfont\topsep6\p@\@plus6\p@\relax\trivlist\item[\hskip\labelsep\bfseries#1\@addpunct{.}]\ignorespaces}{\popQED\endtrivlist\@endpefalse} \makeatother
+
+
+
+\begin{document}
+\noindent
+
+%========================================================================
+\noindent\framebox[\linewidth]{\shortstack[c]{
+\Large{\textbf{Exercise Sheet 11}}\vspace{1mm}\\
+Discrete Mathematics by Hongfei Fu, 2023.11.20}}
+
+\begin{center}
+	\footnotesize{\color{black} \quad Name:\_\_\_\_\_\_\_\_\_  \quad Student ID:\_\_\_\_\_\_\_\_\_ \quad Class: \_\_\_\_\_\_\_\_\_\_\_\_} \\
+
+
+\end{center}
+
+\begin{enumerate}
+\item ([R], Page 650, Exercise 3,5,7,9) For Exercises 3–9, determine whether the graph shown has directed or undirected edges, whether it has multiple edges, and whether it has one or more loops.\\
+3. \includegraphics*[scale=0.7]{3@p650.png} Answer:\\
+The graph has:
+\begin{itemize}
+    \item Undirected edges.
+    \item No multiple edges.
+    \item No loops.
+\end{itemize}
+
+\vspace{0.5cm}
+
+5. \includegraphics*[scale=0.7]{5@p650.png} Answer:\\
+The graph has:
+\begin{itemize}
+    \item Undirected edges.
+    \item Multiple edges.
+    \item Three edges.
+\end{itemize}
+
+\vspace{0.5cm}
+
+7. \includegraphics*[scale=0.7]{7@p650.png} Answer:\\
+The graph has:
+\begin{itemize}
+    \item Directed edges.
+    \item Multiple edges.
+    \item Two loops.
+\end{itemize}
+
+\vspace{0.5cm}
+
+9. \includegraphics*[scale=0.7]{9@p650.png} Answer:\\
+The graph has:
+\begin{itemize}
+    \item Directed edges.
+    \item Multiple edges.
+    \item Two loops.
+\end{itemize}
+
+\newpage
+
+\item ([R], Page 665, Exercise 1, 2) In Exercises 1-2 ﬁnd the degree of each vertex in the given undirected graph. Identify all isolated and pendant vertices.\\
+1. \includegraphics*[scale=0.7]{1@p665.png} Answer:\\
+\begin{itemize}
+    \item deg(a) = 2, deg(b) = 4, deg(c) = 1, deg(d) = 0, deg(e) = 2, deg(f) = 3
+    \item isolated vertex: d
+    \item pendant vertex: c
+\end{itemize}
+2. \includegraphics*[scale=0.7]{2@p665.png} Answer:\\
+\begin{itemize}
+    \item deg(a) = 6, deg(b) = 6, deg(c) = 6, deg(d) = 5, deg(e) = 3
+    \item There is no isolated vertex or pendant vertex.
+\end{itemize}
+
+\vspace{1cm}
+
+\item ([R], Page 665, Exercise 8) In Exercises 8 ﬁnd the in-degree and out-degree of each vertex for the given directed multigraph.\\
+\includegraphics*[scale=0.7]{8@p665.png} Answer:\\
+$deg^{+}(a) = 2, deg^{+}(b) = 4, deg^{+}(c) = 1, deg^{+}(d) = 1$\\
+$deg^{-}(a) = 2, deg^{-}(b) = 3, deg^{-}(c) = 2, deg^{-}(d) = 1$
+\vspace{1cm}
+
+
+
+\end{enumerate}
+%========================================================================
+\end{document}

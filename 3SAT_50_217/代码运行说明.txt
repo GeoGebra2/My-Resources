@@ -1,0 +1,10 @@
+运行说明
+首先输入数据，包括子句数、列数、具体子句。
+接着进行pure literal elimination删去pure literals
+然后开始DPLL进程：
+首先调用is_conflict函数进行冲突检测，发现冲突即返回False;
+若没有冲突，则用unate_pro函数进行unate propagation, 当子句中有literal为真时，删去子句，若子句删完即返回True；
+接着利用is_unite_propagation判断是否可以进行赋值推导：、
+若是，则进行赋值推导，在真值表中添加推导出的真值，迭代进行下一轮DPLL；
+若否，则从剩下未赋值的literal中随机选取一个，返回此子句为真的情况或此子句为假的情况，迭代进行下一轮DPLL
+最后，输出True或False得出是否可满足。
